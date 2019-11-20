@@ -1,6 +1,8 @@
+path_to_src <- file.path(getwd(), "testdata")
+
 test_that("we're initializing `dummy_vector` and `dummy_function`", {
   
-  init_foldeR("tests/testdata")
+  init_folder(path_to_src)
   
   # Testing vectors
   identical_dummy_vector <- c("Hello", "World!")
@@ -14,13 +16,12 @@ test_that("we're initializing `dummy_vector` and `dummy_function`", {
   expect_identical(dummy_function(), identical_dummy_function())
 })
 
-test_that("we're not reading files with lowercase R extensions. Testing by NOT having
-          object `dummy_with_lowercase_extension` in our globals", {
+
+test_that("we're NOT reading files with lowercase R extensions. Verified by
+          receiving the error `object 'dummy_with_lowercase_extension' not found`", {
   
-  init_foldeR("tests/testdata")
+  init_folder(path_to_src)
   
   expect_error(expect_null(dummy_with_lowercase_extension), "object 'dummy_with_lowercase_extension' not found")
   
 })
-
-
