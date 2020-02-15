@@ -12,6 +12,10 @@ devtools::install_github("fkoh111/fkoh111")
 
 [![Build Status](https://travis-ci.com/fkoh111/fkoh111.svg?branch=master)](https://travis-ci.com/fkoh111/fkoh111)  
 
+<!-- badges: start -->
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/fkoh111/fkoh111?branch=master&svg=true)](https://ci.appveyor.com/project/fkoh111/fkoh111)
+<!-- badges: end -->
+
 [![codecov](https://codecov.io/gh/fkoh111/fkoh111/branch/master/graph/badge.svg)](https://codecov.io/gh/fkoh111/fkoh111)  
 
 ---
