@@ -12,7 +12,7 @@
 #' list-folders("tests")
 #' }
 
-list_folders <- function(path, verbose = FALSE) {
+list_folder <- function(path, verbose = FALSE) {
   
   if(missing(path)) {
     stop("You need to provide a path!")
@@ -35,15 +35,9 @@ list_folders <- function(path, verbose = FALSE) {
     )
   }
   
-  
   if(dim(res)[1]==0) {
     stop("The assigned path doesn't contain any folder(s)")
   }
   
   return(res)
 }
-
-
-
-
-
