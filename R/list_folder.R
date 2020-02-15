@@ -31,7 +31,7 @@ list_folder <- function(path, verbose = FALSE) {
       time_altered = extract_folder_info(path, "atime"))
   } else {
     res <- data.frame(
-      folders <- dir(path)[file.info(dir(path, full.names=TRUE))$isdir]
+      folders = dir(path)[file.info(dir(path, full.names=TRUE))$isdir]
     )
   }
   
