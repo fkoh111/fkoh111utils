@@ -10,14 +10,16 @@ The package is strongly inspired by packages such as [Broman](https://github.com
 devtools::install_github("fkoh111/fkoh111")
 ```
 
+<!-- badges: start -->
 [![Build Status](https://travis-ci.com/fkoh111/fkoh111.svg?branch=master)](https://travis-ci.com/fkoh111/fkoh111)  
 
-<!-- badges: start -->
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/fkoh111/fkoh111?branch=master&svg=true)](https://ci.appveyor.com/project/fkoh111/fkoh111)
-<!-- badges: end -->
+[![CRAN status](https://www.r-pkg.org/badges/version-ago/zzlite)](https://CRAN.R-project.org/package=zzlite)
+
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/fkoh111/fkoh111?branch=master&svg=true)](https://ci.appveyor.com/project/fkoh111/fkoh111)  
 
 [![codecov](https://codecov.io/gh/fkoh111/fkoh111/branch/master/graph/badge.svg)](https://codecov.io/gh/fkoh111/fkoh111)  
+<!-- badges: end -->
 
 ---
 
-http://fkhonline.com
+http://fkhonline.net // http:fkoh111.org
