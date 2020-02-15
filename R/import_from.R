@@ -1,5 +1,3 @@
-# import_from
-#' 
 #' Import script files for the R programming language from a given folder. 
 #' 
 #' 
