@@ -4,13 +4,15 @@
 \alias{list_folders}
 \title{List folders from a given directory.}
 \usage{
-list_folders(path)
+list_folders(path, verbose = FALSE)
 }
 \arguments{
 \item{path}{The path from where you want to list folder(s)}
+
+\item{verbose}{Boolean deciding how verbose the output should be. Defaults to FALSE.}
 }
 \value{
-Returns a list of folders
+Returns a dataframe of folders in the assigned path.
 }
 \description{
 List folders from a given directory.
