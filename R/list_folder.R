@@ -12,7 +12,7 @@
 #' list-folders("tests")
 #' }
 
-list_folders <- function(path, verbose = FALSE) {
+list_folder <- function(path, verbose = FALSE) {
   
   if(missing(path)) {
     stop("You need to provide a path!")
@@ -31,10 +31,9 @@ list_folders <- function(path, verbose = FALSE) {
       time_altered = extract_folder_info(path, "atime"))
   } else {
     res <- data.frame(
-      folders <- dir(path)[file.info(dir(path, full.names=TRUE))$isdir]
+      folders = dir(path)[file.info(dir(path, full.names=TRUE))$isdir]
     )
   }
-  
   
   if(dim(res)[1]==0) {
     stop("The assigned path doesn't contain any folder(s)")
@@ -42,8 +41,3 @@ list_folders <- function(path, verbose = FALSE) {
   
   return(res)
 }
-
-
-
-
-

@@ -2,4 +2,4 @@
 
 export(extract_folder_info)
 export(import_from)
-export(list_folders)
+export(list_folder)
