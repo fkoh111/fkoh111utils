@@ -13,11 +13,13 @@ test_that("we're receiving appropriate error messages", {
 
 test_that("we're receiving dataframes back", {
   
-  testthat::expect_is(fkoh111::list_folder(getwd(), verbose = TRUE), "data.frame")
-  testthat::expect_length(fkoh111::list_folder(getwd(), verbose = TRUE), 9)
+  testthat::expect_is(fkoh111::list_folder(path_to_src, verbose = TRUE), "data.frame")
+  testthat::expect_length(fkoh111::list_folder(path_to_src, verbose = TRUE), 9)
 
-  testthat::expect_is(fkoh111::list_folder(getwd()), "data.frame")
-  testthat::expect_length(fkoh111::list_folder(getwd()), 1)
+  testthat::expect_is(fkoh111::list_folder(path_to_src), "data.frame")
+  testthat::expect_length(fkoh111::list_folder(path_to_src), 1)
 
   }
 )
+
+
