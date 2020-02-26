@@ -24,4 +24,4 @@ devtools::install_github("fkoh111/fkoh111")
 
 ---
 
-[http://fkhonline.net](http://fkhonline.net) // [http:fkoh111.org](http://fkoh111.org)
+[http://fkhonline.net](http://fkhonline.net) // [http://fkoh111.org](http://fkoh111.org)
