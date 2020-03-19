@@ -3,3 +3,4 @@
 export(extract_folder_info)
 export(import_from)
 export(list_folder)
+export(narcissist)
