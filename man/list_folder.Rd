@@ -18,7 +18,7 @@ Returns a dataframe of folders in the assigned path.
 List folders from a given directory.
 }
 \examples{
-\donttest{
-list-folders("tests")
+\dontrun{
+list_folder("tests")
 }
 }
