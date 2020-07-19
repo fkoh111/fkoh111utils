@@ -9,8 +9,8 @@
 #' @return A vector of attributes requested
 #' 
 #' @examples
-#' \donttest{
-#' extract_folder_info("tests")
+#' \dontrun{
+#' extract_folder_info("tests", "ctime")
 #' }
 
 extract_folder_info <- function(path, attribute) {

@@ -9,5 +9,5 @@ Imports: cranlogs
 Suggests: testthat
 Description: This package is fkoh111s general utils. It is most likely only relevant for fkoh111.
 License: GPL-3 + file LICENSE
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
 Encoding: UTF-8

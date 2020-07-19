@@ -19,7 +19,7 @@ A vector of attributes requested
 Extract folder info
 }
 \examples{
-\donttest{
-extract_folder_info("tests")
+\dontrun{
+extract_folder_info("tests", "ctime")
 }
 }

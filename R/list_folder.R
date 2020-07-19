@@ -8,8 +8,8 @@
 #' @return Returns a dataframe of folders in the assigned path.
 #' 
 #' @examples
-#' \donttest{
-#' list-folders("tests")
+#' \dontrun{
+#' list_folder("tests")
 #' }
 
 list_folder <- function(path, verbose = FALSE) {

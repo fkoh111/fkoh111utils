@@ -8,12 +8,10 @@
 
 This is a general utils package with function(s) that I'm using on a regular basis.
 
-For the time being, the package doesn't contain a whole lot of functions, but I plan to keep on committing whenever I have time and/or new stuff.
-
 The package is strongly inspired by packages such as [Broman](https://github.com/kbroman/broman).
 
 ### Installation
 
 ```r
-devtools::install_github("fkoh111/fkoh111")
+devtools::install_github("fkoh111/fkoh111utils")
 ```

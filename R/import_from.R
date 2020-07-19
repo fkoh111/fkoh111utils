@@ -40,11 +40,11 @@ import_from <- function(src, strict = TRUE) {
   
   src_contains <- list.files(path = src, pattern = file_pattern)
   
-  if(identical(src_contains, character(0))) {
-    warning("The assigned path doesn't contain any valid file(s)")
-  } else {
+  if(!identical(src_contains, character(0))) {
     for (file in src_contains) {
       source(file.path(src, file, fsep = .Platform$file.sep))
-    } 
+      }
+  } else {
+    warning("The assigned path doesn't contain any valid file(s)")
   }
 }
